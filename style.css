@@ -1,7 +1,21 @@
 p {
   font-family: 'Work Sans', sans-serif ;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
+  padding: 0 0 20px 0;
+}
+
+
+a {
+  font-family: Raleway, sans-serif ;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.further-info {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
 nav {
@@ -22,6 +36,13 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  color: #419d0b;
+}
+
 .faded {
   opacity: 0.1;
   text-align: center;
@@ -32,6 +53,21 @@ h3 {
 .clients {
   position: relative;
   top: -100px;
+}
+
+.two-col {
+  flex: 50%;
+  padding: 0 50px 0px 0px;
+}
+
+
+.col-container {
+  display: flex;
+}
+
+.page-element{
+  margin-left: 150px;
+  margin-right: 100px;
 }
 
 .grid {
@@ -97,9 +133,17 @@ h1 {
   background: rgba(255, 255, 255, 0.4);
   transition: .4s;
   border-radius: 30px;
+  max-width: 110px;
 }
 
+.nav_btn:hover {
+  color: white;
+  opacity: 0.8;
+}
 
+.grid-clients {
+  margin-left: 150px;
+}
 
 .square_btn {
     position: relative;
@@ -135,6 +179,18 @@ h1 {
    padding: 0px 0px 0px 0px;
 }
 
+.blocks {
+  min-width: 1024px;
+  width: 100%;
+  background: lightgray;
+  z-index: -1;
+  padding: 50px 0 0 0;
+  position: relative;
+  top: -50px;
+}
+
+
+
 .text {
 	position: relative;
 	height: 700px;
@@ -163,6 +219,18 @@ h1 {
 
 .text p {
   max-width: 600px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 @keyframes up {
